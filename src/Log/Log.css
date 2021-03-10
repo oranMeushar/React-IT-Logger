@@ -28,3 +28,14 @@
 .Log-writer-info span{
     font-weight: bold;
 }
+
+@media (max-width:500px){
+    .Log{
+        font-size: 3.5vmin;
+    }
+}
+@media (max-width:400px){
+    .Log{
+        font-size: 4.5vmin;
+    }
+}

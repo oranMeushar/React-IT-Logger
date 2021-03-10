@@ -6,4 +6,24 @@
     padding:4vmin 0;
     border:1px solid grey;
     font-size: 4vmin;
+    letter-spacing: 0.3vmin;
+    color:rgb(41, 41, 94);
+}
+
+@media (max-width:500px){
+    .Logs{
+        width:85%;
+    }
+    .Logs-header{
+        font-size: 4.5vmin;
+    }
+    
+}
+@media (max-width:400px){
+    .Logs{
+        width:95%;
+    }
+    .Logs-header{
+        font-size: 5vmin;
+    }
 }
