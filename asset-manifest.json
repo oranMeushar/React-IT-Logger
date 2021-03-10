@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-IT-Logger/static/css/main.42dce0f6.chunk.css",
+    "main.js": "/React-IT-Logger/static/js/main.d83362ee.chunk.js",
+    "main.js.map": "/React-IT-Logger/static/js/main.d83362ee.chunk.js.map",
+    "runtime-main.js": "/React-IT-Logger/static/js/runtime-main.477e6ab8.js",
+    "runtime-main.js.map": "/React-IT-Logger/static/js/runtime-main.477e6ab8.js.map",
+    "static/js/2.3840be91.chunk.js": "/React-IT-Logger/static/js/2.3840be91.chunk.js",
+    "static/js/2.3840be91.chunk.js.map": "/React-IT-Logger/static/js/2.3840be91.chunk.js.map",
+    "index.html": "/React-IT-Logger/index.html",
+    "static/css/main.42dce0f6.chunk.css.map": "/React-IT-Logger/static/css/main.42dce0f6.chunk.css.map",
+    "static/js/2.3840be91.chunk.js.LICENSE.txt": "/React-IT-Logger/static/js/2.3840be91.chunk.js.LICENSE.txt",
+    "static/media/newTech.7c389c04.png": "/React-IT-Logger/static/media/newTech.7c389c04.png",
+    "static/media/recycle.beeb4cb5.png": "/React-IT-Logger/static/media/recycle.beeb4cb5.png",
+    "static/media/search.75ee25f7.png": "/React-IT-Logger/static/media/search.75ee25f7.png",
+    "static/media/system.de8cc2c5.png": "/React-IT-Logger/static/media/system.de8cc2c5.png",
+    "static/media/technations.257a6bba.png": "/React-IT-Logger/static/media/technations.257a6bba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.477e6ab8.js",
+    "static/js/2.3840be91.chunk.js",
+    "static/css/main.42dce0f6.chunk.css",
+    "static/js/main.d83362ee.chunk.js"
+  ]
+}
