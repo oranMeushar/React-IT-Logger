@@ -1,0 +1,71 @@
+.TechForm{
+    background-color: white;
+    padding:3vmin;
+    border-radius: 0.6rem;
+    width:80vmin;
+    transform: translateY(-100%);
+    transition:transform 0.3s linear;
+    display:flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.TechForm.active{
+    transform: translateY(0);
+}
+
+.TechForm h1{
+    text-align:center;
+    font-size:4vmin;
+    letter-spacing: 0.3vmin;
+    width:100%;
+    margin:4vmin 0;
+}
+
+.TechForm input[type="text"]{
+    width:100%;
+    outline:none;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    border:none;
+    border-bottom: 1px solid grey;
+}
+
+.TechForm label{
+    width:100%;
+    position: relative;
+    margin:6vmin 0;
+}
+.TechForm span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    opacity: 0.6;
+    transition: transform 0.2s linear;
+}
+
+.TechForm input:focus + span,
+.TechForm input:not(:placeholder-shown) + span{
+    transform: translate(-1vmin,-3.5vmin) scale(0.8);
+    opacity: 1;
+    color:#24507c;   
+}
+
+
+.TechForm input:focus{
+    border-color: #389dff;
+}
+
+
+.TechForm button[type="submit"]{
+    padding:0.5vmin 1vmin;
+    border-radius: 0.6rem;;
+    border:none;
+    outline:none;
+    background-color: #389dff;
+    color:white;
+    font-size: 3vmin;
+    cursor: pointer;
+}

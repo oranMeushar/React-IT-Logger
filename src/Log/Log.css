@@ -1,0 +1,30 @@
+.Log{
+    border:1px solid grey;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    position: relative;
+    padding-right: 5vmin;
+    cursor: pointer;
+}
+
+.Log img{
+    position: absolute;
+    bottom:0;
+    right:1vmin;
+    width:3vmin;
+    cursor: pointer;
+}
+
+.Log-content{
+    margin-bottom:2vmin;
+}
+.Log-content.red{
+    color:red;
+}
+.Log-content.blue{
+    color:blue;
+}
+
+.Log-writer-info span{
+    font-weight: bold;
+}

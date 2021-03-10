@@ -1,0 +1,119 @@
+.LogForm{
+    background-color: white;
+    padding:3vmin;
+    border-radius: 0.6rem;
+    width:80vmin;
+    transform: translateY(-100%);
+    transition:transform 0.3s linear;
+}
+
+.LogForm.active{
+    transform: translateY(0);
+}
+
+.LogForm h1{
+    text-align:center;
+    font-size:4vmin;
+    letter-spacing: 0.3vmin;
+    width:100%;
+    margin:4vmin 0;
+}
+
+.LogForm-form{
+    display:flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.LogForm-form input[type="text"]{
+    width:100%;
+    outline:none;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    border:none;
+    border-bottom: 1px solid grey;
+}
+.LogForm-form select{
+    width:100%;
+    outline:none;
+}
+
+
+.LogForm-form-attention{
+    display:flex;
+    align-items:center;
+    margin:6vmin 0;
+    align-self: flex-start;
+
+}
+
+.LogForm-form-newLog{
+    width:100%;
+    position: relative;
+    margin:6vmin 0;
+}
+.LogForm-form-newLog span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    opacity: 0.6;
+    transition: transform 0.2s linear;
+}
+
+.LogForm-form-newLog input:focus + span,
+.LogForm-form-newLog input:not(:placeholder-shown) + span{
+    transform: translate(-1vmin,-3.5vmin) scale(0.8);
+    opacity: 1;
+    color:#24507c;   
+}
+
+.LogForm-form-newLog input:focus{
+    border-color: #389dff;
+}
+
+
+.LogForm button[type="submit"]{
+    padding:0.5vmin 1vmin;
+    border-radius: 0.6rem;;
+    border:none;
+    outline:none;
+    background-color: #389dff;
+    color:white;
+    font-size: 3vmin;
+    cursor: pointer;
+}
+
+
+.LogForm-form input[type="checkbox"]{
+    appearance: none;
+    width:6vmin;
+    height:2vmin;
+    border:1px solid  rgb(90, 85, 85);
+    border-radius: 0.6rem;
+    outline:none;
+    margin-left: 1vmin;
+    position:relative;
+    cursor: pointer;
+    transition:background-color 0.3s linear;
+}
+.LogForm-form input[type="checkbox"]::before{
+    content:"";
+    position:absolute;
+    top:-5%;
+    left: -5%;
+    width:2vmin;
+    height:1.8vmin;
+    border-radius: 50%;
+    background-color: #737a81;
+    transition:left 0.2s linear;
+}
+
+
+.LogForm-form input[type="checkbox"]:checked::before{
+    left:68%;
+}
+.LogForm-form input[type="checkbox"]:checked{
+    background-color: #85c3ff;
+}

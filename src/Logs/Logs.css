@@ -1,0 +1,9 @@
+.Logs{
+    width:70%;
+}
+.Logs-header{
+    text-align:center;
+    padding:4vmin 0;
+    border:1px solid grey;
+    font-size: 4vmin;
+}

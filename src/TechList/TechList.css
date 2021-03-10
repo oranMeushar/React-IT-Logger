@@ -1,0 +1,36 @@
+.TechList{
+    background-color: white;
+    padding:3vmin;
+    border-radius: 0.6rem;
+    width:80vmin;
+    transform: translateY(-100%);
+    transition:transform 0.3s linear;
+    height:60vmin;
+    overflow-y: auto;
+}
+
+.TechList.active{
+    transform: translateY(0);
+}
+
+.TechList h1{
+    text-align:center;
+    font-size:4vmin;
+    letter-spacing: 0.3vmin;
+    width:100%;
+    margin:4vmin 0;
+}
+
+.TechList-tech{
+    font-size:3vmin;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border:1px solid grey;
+    margin:2vmin 0;
+}
+
+.TechList-tech img{
+    width:3vmin;
+    cursor: pointer;
+}
